@@ -70,8 +70,6 @@ Please notice, when you call **Explore** method for keywords comparison, two fir
 
 ### Examples
 
-Working detailed examples for all methods and cases can be found in ***example*** folder. Short version below.
-
 ```go
 // Daily trends
 ctx := context.Background()
