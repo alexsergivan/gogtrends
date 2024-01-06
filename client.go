@@ -91,7 +91,7 @@ func (c *gClient) setLocations(locs *ExploreLocTree) {
 }
 
 func (c *gClient) do(ctx context.Context, u *url.URL) ([]byte, error) {
-	r, err := http.NewRequestWithContext(ctx, http.MethodPost, u.String(), nil)
+	r, err := http.NewRequestWithContext(ctx, http.MethodGet, u.String(), nil)
 	if err != nil {
 		return nil, errors.Wrap(err, errCreateRequest)
 	}
