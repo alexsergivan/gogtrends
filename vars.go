@@ -7,7 +7,8 @@ import (
 )
 
 const (
-	gAPI = "https://trends.google.com/trends/api"
+	gAPI       = "https://trends.google.com/trends/api"
+	gCookieAPI = "https://trends.google.com/trends/"
 
 	gDaily    = "/dailytrends"
 	gRealtime = "/realtimetrends"
