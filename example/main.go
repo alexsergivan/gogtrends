@@ -7,7 +7,6 @@ import (
 
 	"log"
 
-	"github.com/groovili/gogtrends"
 	"github.com/pkg/errors"
 )
 
